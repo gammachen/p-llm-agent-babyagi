@@ -1,0 +1,38 @@
+# Core dependencies
+babyagi==0.1.0
+chromadb==0.4.15
+openai==1.3.5
+tiktoken==0.5.1
+python-dotenv==1.0.0
+
+# Web framework and API
+flask==3.0.0
+flask-cors==4.0.0
+requests==2.31.0
+
+# UI frameworks
+gradio==4.7.1
+streamlit==1.28.1
+
+# Task queue (optional)
+celery==5.3.4
+redis==5.0.1
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Logging and monitoring
+loguru==0.7.2
+
+# Utilities
+numpy==1.24.3
+pandas==2.0.3
+pyyaml==6.0.1
+
+# Local LLM support
+ollama==0.1.7
+
+# Vector database alternatives
+pinecone-client==2.2.4
+weaviate-client==3.25.3

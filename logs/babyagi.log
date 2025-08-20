@@ -1,0 +1,194 @@
+2025-08-20 03:10:58,475 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:10:58,476 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:10:58,476 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:10:58,476 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:10:58,476 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:10:58,492 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:58,492 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2025-08-20 03:10:58,493 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.000s)
+2025-08-20 03:10:58,494 - babyagi.api - INFO - app.py:56 - GET /api/health - 开始处理
+2025-08-20 03:10:58,494 - babyagi.api - INFO - app.py:62 - GET /api/health - 完成 (0.000s)
+2025-08-20 03:10:58,495 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,069 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,069 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,069 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:10:59,069 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,069 - babyagi.api - INFO - app.py:185 - 创建 Agent: 2c1c7c51-3875-4329-99ca-dcc450908eea
+2025-08-20 03:10:59,069 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.575s)
+2025-08-20 03:10:59,070 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,072 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,072 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,072 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:10:59,072 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,072 - babyagi.api - INFO - app.py:185 - 创建 Agent: 3c8dddeb-7053-4d0c-b812-43d31b980662
+2025-08-20 03:10:59,072 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,073 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,075 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,075 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,075 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:10:59,075 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,076 - babyagi.api - INFO - app.py:185 - 创建 Agent: 5172540c-f0ce-44ab-b36e-7ec6dc43f1d0
+2025-08-20 03:10:59,076 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,076 - babyagi.api - INFO - app.py:56 - DELETE /api/agents/nonexistent - 开始处理
+2025-08-20 03:10:59,077 - babyagi.api - INFO - app.py:62 - DELETE /api/agents/nonexistent - 完成 (0.000s)
+2025-08-20 03:10:59,078 - babyagi.api - INFO - app.py:56 - POST /api/tools/execute - 开始处理
+2025-08-20 03:10:59,078 - babyagi.api - INFO - app.py:62 - POST /api/tools/execute - 完成 (0.000s)
+2025-08-20 03:10:59,078 - babyagi.api - INFO - app.py:56 - POST /api/tools/execute - 开始处理
+2025-08-20 03:10:59,079 - babyagi.api - INFO - app.py:62 - POST /api/tools/execute - 完成 (0.000s)
+2025-08-20 03:10:59,079 - babyagi.api - INFO - app.py:56 - POST /api/tools/execute - 开始处理
+2025-08-20 03:10:59,079 - babyagi.api - INFO - app.py:62 - POST /api/tools/execute - 完成 (0.000s)
+2025-08-20 03:10:59,079 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,081 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,082 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,082 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:10:59,082 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,082 - babyagi.api - INFO - app.py:185 - 创建 Agent: 2330bf57-e356-4ba1-9f12-9b1d280da454
+2025-08-20 03:10:59,082 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,082 - babyagi.api - INFO - app.py:56 - GET /api/agents/nonexistent - 开始处理
+2025-08-20 03:10:59,083 - babyagi.api - INFO - app.py:62 - GET /api/agents/nonexistent - 完成 (0.000s)
+2025-08-20 03:10:59,083 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,084 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,085 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,085 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:10:59,085 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,085 - babyagi.api - INFO - app.py:185 - 创建 Agent: 42454599-0d54-401f-9b74-4c8298aea62c
+2025-08-20 03:10:59,085 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,085 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,087 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,087 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,087 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标0
+2025-08-20 03:10:59,087 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,087 - babyagi.api - INFO - app.py:185 - 创建 Agent: ba03b7f0-861b-4315-b226-94b901eb1527
+2025-08-20 03:10:59,087 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,088 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,089 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,089 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,089 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标1
+2025-08-20 03:10:59,089 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,089 - babyagi.api - INFO - app.py:185 - 创建 Agent: a53834cf-77fa-4b72-896c-dea67b67d6c7
+2025-08-20 03:10:59,089 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,089 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,091 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,091 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,091 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标2
+2025-08-20 03:10:59,091 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,091 - babyagi.api - INFO - app.py:185 - 创建 Agent: 34c878a2-b77c-48fb-980c-44a6a495e6f8
+2025-08-20 03:10:59,091 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,091 - babyagi.api - INFO - app.py:56 - GET /api/stats - 开始处理
+2025-08-20 03:10:59,091 - babyagi.api - INFO - app.py:62 - GET /api/stats - 完成 (0.000s)
+2025-08-20 03:10:59,092 - babyagi.api - INFO - app.py:56 - GET /api/health - 开始处理
+2025-08-20 03:10:59,092 - babyagi.api - INFO - app.py:62 - GET /api/health - 完成 (0.000s)
+2025-08-20 03:10:59,093 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,093 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+2025-08-20 03:10:59,093 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.000s)
+2025-08-20 03:10:59,093 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:10:59,095 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,095 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,095 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:10:59,095 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,095 - babyagi.api - INFO - app.py:185 - 创建 Agent: 5529aa3d-2ccf-42cc-b388-bf1d64fd8321
+2025-08-20 03:10:59,095 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:10:59,096 - babyagi.api - INFO - app.py:56 - GET /api/agents - 开始处理
+2025-08-20 03:10:59,096 - babyagi.api - INFO - app.py:62 - GET /api/agents - 完成 (0.000s)
+2025-08-20 03:10:59,097 - babyagi.api - INFO - app.py:56 - GET /api/tools - 开始处理
+2025-08-20 03:10:59,097 - babyagi.api - INFO - app.py:62 - GET /api/tools - 完成 (0.000s)
+2025-08-20 03:10:59,098 - babyagi.api - INFO - app.py:56 - POST /api/execute - 开始处理
+2025-08-20 03:10:59,098 - babyagi.api - INFO - app.py:383 - 快速执行 Agent，目标: 测试目标
+2025-08-20 03:10:59,099 - babyagi.api - ERROR - app.py:397 - 快速执行失败: Object of type MagicMock is not JSON serializable
+2025-08-20 03:10:59,099 - babyagi.api - INFO - app.py:62 - POST /api/execute - 完成 (0.000s)
+2025-08-20 03:10:59,100 - babyagi.api - INFO - app.py:56 - POST /api/execute - 开始处理
+2025-08-20 03:10:59,100 - babyagi.api - INFO - app.py:383 - 快速执行 Agent，目标: 测试目标
+2025-08-20 03:10:59,102 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:10:59,102 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:10:59,102 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:10:59,102 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:10:59,102 - babyagi.babyagi - INFO - custom_babyagi.py:373 - 开始运行 BabyAGI，最大迭代次数: 5
+2025-08-20 03:10:59,102 - babyagi.babyagi - INFO - custom_babyagi.py:386 - 开始第 1 次迭代
+2025-08-20 03:10:59,102 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:21 - 开始执行增强任务: 制定实现以下目标的任务列表: 测试目标
+2025-08-20 03:10:59,124 - babyagi.babyagi - ERROR - custom_babyagi.py:135 - Ollama API 调用失败: 404 Client Error: Not Found for url: http://localhost:11434/api/api/generate
+2025-08-20 03:10:59,125 - babyagi.enhanced_babyagi - WARNING - enhanced_babyagi.py:110 - 无法解析工具决策 JSON，默认不使用工具
+2025-08-20 03:10:59,128 - babyagi.babyagi - ERROR - custom_babyagi.py:135 - Ollama API 调用失败: 404 Client Error: Not Found for url: http://localhost:11434/api/api/generate
+2025-08-20 03:11:33,709 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:46 - 增强任务执行完成: 4e3a876f-eb63-492a-9885-9c5fa44576c7
+2025-08-20 03:11:33,714 - babyagi.babyagi - ERROR - custom_babyagi.py:135 - Ollama API 调用失败: 404 Client Error: Not Found for url: http://localhost:11434/api/api/generate
+2025-08-20 03:11:33,715 - babyagi.enhanced_babyagi - WARNING - enhanced_babyagi.py:285 - 无法找到 JSON 数组
+2025-08-20 03:11:33,715 - babyagi.babyagi - INFO - custom_babyagi.py:421 - 第 1 次迭代完成，剩余任务: 0
+2025-08-20 03:11:33,715 - babyagi.babyagi - INFO - custom_babyagi.py:386 - 开始第 2 次迭代
+2025-08-20 03:11:33,715 - babyagi.babyagi - INFO - custom_babyagi.py:389 - 任务列表为空，停止执行
+2025-08-20 03:11:33,715 - babyagi.babyagi - INFO - custom_babyagi.py:426 - BabyAGI 运行完成，状态: completed
+2025-08-20 03:11:33,793 - babyagi.api - INFO - app.py:62 - POST /api/execute - 完成 (34.693s)
+2025-08-20 03:11:33,796 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:11:33,799 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:11:33,799 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:11:33,799 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:11:33,799 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:11:33,799 - babyagi.api - INFO - app.py:185 - 创建 Agent: 19f07e03-fc70-49ea-891e-d0d016a1c570
+2025-08-20 03:11:33,799 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.003s)
+2025-08-20 03:11:33,800 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:11:33,802 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:11:33,802 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:11:33,802 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:11:33,802 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:11:33,802 - babyagi.api - INFO - app.py:185 - 创建 Agent: 77ed7097-df4b-4d5c-ab00-dbed98dffe47
+2025-08-20 03:11:33,802 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:11:33,803 - babyagi.api - INFO - app.py:56 - POST /api/agents/nonexistent/start - 开始处理
+2025-08-20 03:11:33,803 - babyagi.api - INFO - app.py:62 - POST /api/agents/nonexistent/start - 完成 (0.000s)
+2025-08-20 03:11:33,804 - babyagi.api - INFO - app.py:56 - POST /api/agents - 开始处理
+2025-08-20 03:11:33,805 - babyagi.babyagi - INFO - custom_babyagi.py:81 - ChromaDB 初始化成功，存储路径: ./chroma_db
+2025-08-20 03:11:33,805 - babyagi.babyagi - INFO - custom_babyagi.py:138 - Ollama LLM 初始化成功，模型: gpt-3.5-turbo
+2025-08-20 03:11:33,805 - babyagi.babyagi - INFO - custom_babyagi.py:59 - BabyAGI 初始化完成，目标: 测试目标
+2025-08-20 03:11:33,805 - babyagi.enhanced_babyagi - INFO - enhanced_babyagi.py:17 - 增强版 BabyAGI 初始化完成，已集成工具系统
+2025-08-20 03:11:33,805 - babyagi.api - INFO - app.py:185 - 创建 Agent: 167f7087-3358-4a95-a842-e4a96cb5060b
+2025-08-20 03:11:33,806 - babyagi.api - INFO - app.py:62 - POST /api/agents - 完成 (0.002s)
+2025-08-20 03:11:33,806 - babyagi.api - INFO - app.py:56 - POST /api/agents/nonexistent/stop - 开始处理
+2025-08-20 03:11:33,806 - babyagi.api - INFO - app.py:62 - POST /api/agents/nonexistent/stop - 完成 (0.000s)
+2025-08-20 03:11:33,807 - babyagi.api - INFO - app.py:56 - GET /api/info - 开始处理
+2025-08-20 03:11:33,807 - babyagi.api - INFO - app.py:62 - GET /api/info - 完成 (0.000s)
+2025-08-20 03:11:33,807 - babyagi.api - INFO - app.py:56 - GET / - 开始处理
+2025-08-20 03:11:33,811 - babyagi.api - INFO - app.py:62 - GET / - 完成 (0.004s)
+2025-08-20 03:11:33,812 - babyagi.api - INFO - app.py:56 - GET /static/css/style.css - 开始处理
+2025-08-20 03:11:33,814 - babyagi.api - INFO - app.py:62 - GET /static/css/style.css - 完成 (0.002s)
+2025-08-20 03:11:33,839 - babyagi.tools - INFO - tools.py:314 - 发送 GET 请求到: http://example.com
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:314 - 发送 GET 请求到: http://example.com
+2025-08-20 03:11:33,840 - babyagi.tools - ERROR - tools.py:350 - HTTP 请求失败: Connection error
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,840 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: execute_command
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: file_manager
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: web_search
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: http_client
+2025-08-20 03:11:33,841 - babyagi.tools - INFO - tools.py:466 - 工具已注册: code_analyzer
+2025-08-20 03:11:33,842 - babyagi.tools - INFO - tools.py:268 - 执行网络搜索: test query
+2025-08-20 03:11:33,842 - babyagi.tools - INFO - tools.py:268 - 执行网络搜索: test query

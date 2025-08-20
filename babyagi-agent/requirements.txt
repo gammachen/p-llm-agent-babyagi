@@ -1,0 +1,19 @@
+# 核心依赖
+babyagi
+openai>=0.27.0,<1.0.0
+chromadb>=0.4.0
+tiktoken
+
+# Web框架
+flask
+gradio
+
+# 工具依赖
+requests
+python-dotenv
+
+# 可选依赖
+# celery
+# redis
+# pinecone-client
+# weaviate-client
