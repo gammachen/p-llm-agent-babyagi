@@ -3,4 +3,6 @@
 .DS_Store
 __pycache__/
 .env
-babyagi-agent/chroma_db
+chroma_db/
+babyagi-agent/chroma_db/
+*.bin
