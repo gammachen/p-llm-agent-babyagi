@@ -96,6 +96,7 @@ class CustomBabyAGI:
                     raise ValueError("使用 OpenAI 时必须设置 OPENAI_API_KEY")
                 
                 openai.api_key = config.OPENAI_API_KEY
+                openai.base_url = config.OPENAI_BASE_URL
                 
                 def openai_llm(prompt: str, max_tokens: int = 1000) -> str:
                     try:
