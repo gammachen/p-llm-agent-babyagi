@@ -8,6 +8,90 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+def printter2(text: str) -> None:
+    print(text)
+    return f"2222_text{text}"
+
+def printter3(text: str) -> None:
+    print(text)
+    
+    printter2(text)
+    return f"3333_text{text}"
+
+# def printter4(text: str) -> None:
+#     print(f"444_{text}")
+    
+#     func.printter3(text)
+#     return f"4444_text{text}"
+
+def curlb(url: str) -> str:
+    """
+    执行curl命令并返回结果，通过curl获取网页内容，支持GET和POST方法
+    """
+    try:
+        print(f"Curl-ing {url}")
+        result = subprocess.run(["curl", url], capture_output=True, text=True)
+        print(result.stdout)
+        return result.stdout
+    except Exception as e:
+        print(f"Error: {e}")
+        return ""
+
+def get_weather(city: str) -> str:
+    """
+    获取城市的天气信息
+    """
+    # url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid=your_api_key"
+    # response = curlb(url)
+    # mock response
+    if city == "北京":
+        return "{'weather': [{'main': 'Clear'}], 'main': {'temp': 293.15}}"
+    else:
+        print(f"Curl-ing {city}")
+        
+        response = "{'weather': [{'main': 'Cloudy'}], 'main': {'temp': 293.15}}"
+        return response
+
+def get_student_info(name: str) -> str:
+    """
+    获取学生的信息
+    参数：
+        name(str) :学生名字
+    返回值：
+        str: 包含学生信息的JSON字符串，包含学生ID：id、学生名字：name、学生年龄：age、学生性别：gender
+    """
+    # url = f"http://api.example.com/students/{name}"
+    # response = curlb(url)
+    # mock response
+    if name == "张三":
+        return "{'id': '1001', 'name': '张三', 'age': 18, 'gender': '男'}"
+    else:
+        print(f"Curl-ing {name}")
+        response = "{'id': '1002', 'name': '李四', 'age': 19, 'gender': '女'}"
+        return response
+
+def get_student_latest_grade_by_id(student_id: str) -> str:
+    """
+    通过学生id（student_id）获取学生的最新成绩列表，包含成绩和日期
+    
+    参数:
+        student_id (str): 学生ID
+        
+    返回值:
+        str: 包含学生成绩信息的JSON字符串，包含成绩和日期列表
+    """
+    # url = f"http://api.example.com/students/{student_name}/grades"
+    # response = curlb(url)
+    # mock response
+    
+    # 根据学生ID返回对应的成绩数据
+    if student_id == "1001":
+        return "{'grades': [{'grade': 90, 'date': '2023-01-01'}, {'grade': 85, 'date': '2022-01-01'}]}"
+    else:
+        print(f"Curl-ing {student_id}")
+        response = "{'grades': [{'grade': 70, 'date': '2023-01-01'}, {'grade': 65, 'date': '2022-01-01'}]}"
+        return response
+
 class FunctionExecutor:
     def __init__(self, python_func):
         self.python_func = python_func

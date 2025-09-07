@@ -4,3 +4,4 @@ cryptography
 scikit-learn
 litellm
 openai
+babyagi

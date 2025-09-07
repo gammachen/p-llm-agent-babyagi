@@ -99,7 +99,7 @@ def analyze_internal_functions(description: str, existing_functions: str, interm
     # Step 2.1: Make the LLM call using JSON mode with Pydantic model
     try:
         display_response = completion(
-            model="gpt-4o-mini",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": display_prompt}
@@ -235,7 +235,7 @@ def determine_required_external_apis(description: str, intermediate_steps: list)
 
     try:
         api_response = completion(
-            model="gpt-4o-mini",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": prompt_for_apis}
@@ -375,7 +375,7 @@ def handle_api_documentation(api_name: str, description: str, intermediate_steps
 
     try:
         link_selection_response = completion(
-            model="gpt-4o-mini",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": link_selection_prompt}
@@ -451,7 +451,7 @@ Based on the new information, extract any additional relevant API methods, endpo
         for chunk in extraction_prompt_chunks:
             try:
                 extraction_response = completion(
-                    model="gpt-4o-mini",
+                    model="gpt-3.5-turbo",
                     messages=[
                         {"role": "system", "content": system_prompt},
                         {"role": "user", "content": chunk}
@@ -618,7 +618,7 @@ def generate_final_function_code(description: str, reusable_function_code: dict,
     for chunk in final_prompt_chunks:
         try:
             final_response = completion(
-                model="gpt-4o-mini",
+                model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": system_prompt},
                     {"role": "user", "content": chunk}

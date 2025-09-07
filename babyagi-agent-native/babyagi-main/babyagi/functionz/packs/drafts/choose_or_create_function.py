@@ -74,7 +74,7 @@ Available Functions:
 
     try:
         decision_response = completion(
-            model="gpt-4o-mini",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": decision_prompt}
@@ -162,7 +162,7 @@ Available Functions:
                 extra = 'forbid'  # This sets 'additionalProperties' to False
 
         param_response = completion(
-            model="gpt-4o-mini",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are an assistant that provides only JSON-formatted data, with no additional text."},
                 {"role": "user", "content": param_prompt}

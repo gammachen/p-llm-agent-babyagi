@@ -107,12 +107,14 @@ def react_agent(input_text) -> str:
 
             # Call LiteLLM's completion API with the chat context and tools
             response = litellm.completion(
-                model="gpt-4-turbo",
+                # model="gpt-3.5-turbo",
+                model=os.getenv('OPENAI_MODEL'),
                 messages=chat_context,
                 tools=tools,
                 tool_choice="auto",
                 max_tokens=1500,
-                temperature=0.7
+                # temperature=0.7
+                temperature=0.3
             )
 
             # Extract the message from the response

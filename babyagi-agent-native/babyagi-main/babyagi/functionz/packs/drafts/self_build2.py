@@ -74,7 +74,7 @@ Number of Queries to Generate:
 
     try:
         generation_response = completion(
-            model="gpt-4o-mini",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": generation_prompt}

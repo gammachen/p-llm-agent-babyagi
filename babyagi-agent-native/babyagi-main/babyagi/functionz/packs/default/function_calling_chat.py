@@ -1,6 +1,7 @@
 from functionz.core.framework import func
 import json
 import litellm
+import os
 
 # Assuming `func` is the registry from your framework
 # and `execute_function_wrapper` is already registered in the database.
@@ -9,7 +10,7 @@ import litellm
     metadata={
         "description": "A chat application that interacts with LiteLLM and executes selected functions from the database."
     },
-    imports=["litellm", "json"],
+    imports=["litellm", "json", "os"],
     dependencies=["get_function_wrapper", "execute_function_wrapper"],
     key_dependencies=["OPENAI_API_KEY"]  # Ensure this key is set in your environment
 )
@@ -110,7 +111,8 @@ def chat_with_functions(chat_history, available_function_names) -> str:
 
     # Call LiteLLM's completion API with the user message and available tools
     response = litellm.completion(
-        model="gpt-4-turbo",
+        # model="gpt-3.5-turbo",
+        model=os.getenv('OPENAI_MODEL'),
         messages=chat_context,
         tools=tools,
         tool_choice="auto"
@@ -152,7 +154,8 @@ def chat_with_functions(chat_history, available_function_names) -> str:
 
         # Call LiteLLM again with the updated context including function responses
         second_response = litellm.completion(
-            model="gpt-4-turbo",
+            # model="gpt-3.5-turbo",
+            model=os.getenv('OPENAI_MODEL'),
             messages=chat_context
         )
 
