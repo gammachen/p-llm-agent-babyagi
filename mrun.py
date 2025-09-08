@@ -31,6 +31,69 @@ Traceback (most recent call last):
     raise litellm.exceptions.BadRequestError(  # type: ignore
 litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=gpt-3.5-turbo
  Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+
+{
+	"id": "chatcmpl-991",
+	"choices": [{
+		"finish_reason": "tool_calls",
+		"index": 0,
+		"logprobs": null,
+		"message": {
+			"content": "为了提供您的请求，我将调用相关的API来查询所需信息。\n\n首先是对张三的学生档案的查询：\n",
+			"refusal": null,
+			"role": "assistant",
+			"annotations": null,
+			"audio": null,
+			"function_call": null,
+			"tool_calls": [{
+				"id": "call_qcsnph9z",
+				"function": {
+					"arguments": "{\"student_name\":\"张三\"}",
+					"name": "get_student_info"
+				},
+				"type": "function",
+				"index": 0
+			}, {
+				"id": "call_fsbrn8u0",
+				"function": {
+					"arguments": "{\"student_id\":\"STU2024001\"}",
+					"name": "get_student_latest_grade_by_id"
+				},
+				"type": "function",
+				"index": 1
+			}, {
+				"id": "call_4b5oumxh",
+				"function": {
+					"arguments": "{\"query_type\":\"current\",\"student_id\":\"STU2024001\"}",
+					"name": "get_library_records"
+				},
+				"type": "function",
+				"index": 2
+			}, {
+				"id": "call_tfig18tm",
+				"function": {
+					"arguments": "{}",
+					"name": "get_sports_activities"
+				},
+				"type": "function",
+				"index": 3
+			}]
+		}
+	}],
+	"created": 1757262094,
+	"model": "gpt-3.5-turbo",
+	"object": "chat.completion",
+	"service_tier": null,
+	"system_fingerprint": "fp_ollama",
+	"usage": {
+		"completion_tokens": 223,
+		"prompt_tokens": 1661,
+		"total_tokens": 1884,
+		"completion_tokens_details": null,
+		"prompt_tokens_details": null
+	}
+}
+
 '''
 
 from print import slow_print_file

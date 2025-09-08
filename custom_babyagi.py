@@ -62,20 +62,32 @@ class CustomBabyAGI:
         """初始化向量数据库"""
         try:
             if config.VECTOR_DB == "chroma":
+                from chromadb.config import Settings
+                
                 # 选择嵌入函数
                 if config.LLM_PROVIDER == "openai" and config.OPENAI_API_KEY:
                     embedding_function = OpenAIEmbeddingFunction(
                         api_key=config.OPENAI_API_KEY,
+                        api_base=config.OPENAI_BASE_URL,
                         model_name="text-embedding-ada-002"
                     )
                 else:
                     embedding_function = DefaultEmbeddingFunction()
                 
-                # 创建 Chroma 客户端
-                client = chromadb.PersistentClient(path=config.CHROMA_PERSIST_DIR)
+                # 创建 Chroma 客户端，使用一致的设置
+                client = chromadb.PersistentClient(
+                    path=config.CHROMA_PERSIST_DIR,
+                    settings=Settings(
+                        anonymized_telemetry=False,
+                        allow_reset=True
+                    )
+                )
+                
+                # 获取或创建集合
                 collection = client.get_or_create_collection(
                     name="babyagi_tasks",
-                    embedding_function=embedding_function
+                    embedding_function=embedding_function,
+                    metadata={"hnsw:space": "cosine"}
                 )
                 
                 logger.info(f"ChromaDB 初始化成功，存储路径: {config.CHROMA_PERSIST_DIR}")

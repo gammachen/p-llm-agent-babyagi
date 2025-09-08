@@ -16,7 +16,7 @@ class Config:
     
     # Ollama 配置
     OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
-    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama2")
+    OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "gpt-3.5-turbo:latest")
     
     # 向量数据库配置
     VECTOR_DB: str = os.getenv("VECTOR_DB", "chroma")

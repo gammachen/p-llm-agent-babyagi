@@ -20,4 +20,4 @@ def home():
     return "Welcome to the main app. Visit /dashboard for BabyAGI dashboard."
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=8080, debug=True)

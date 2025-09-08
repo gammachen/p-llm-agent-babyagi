@@ -5,3 +5,220 @@
 2025-08-20 03:10:59,128 - babyagi.babyagi - ERROR - custom_babyagi.py:135 - Ollama API 调用失败: 404 Client Error: Not Found for url: http://localhost:11434/api/api/generate
 2025-08-20 03:11:33,714 - babyagi.babyagi - ERROR - custom_babyagi.py:135 - Ollama API 调用失败: 404 Client Error: Not Found for url: http://localhost:11434/api/api/generate
 2025-08-20 03:11:33,840 - babyagi.tools - ERROR - tools.py:350 - HTTP 请求失败: Connection error
+2025-09-08 03:12:27,466 - babyagi.babyagi - ERROR - custom_babyagi.py:88 - 向量数据库初始化失败: no such column: collections.topic
+2025-09-08 03:12:27,467 - babyagi.api - ERROR - app.py:397 - 快速执行失败: no such column: collections.topic
+2025-09-08 03:13:24,740 - babyagi.babyagi - ERROR - custom_babyagi.py:88 - 向量数据库初始化失败: no such column: collections.topic
+2025-09-08 03:13:24,741 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: no such column: collections.topic
+2025-09-08 03:14:40,707 - babyagi.babyagi - ERROR - custom_babyagi.py:88 - 向量数据库初始化失败: no such column: collections.topic
+2025-09-08 03:14:40,708 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: no such column: collections.topic
+2025-09-08 03:19:59,818 - babyagi.babyagi - ERROR - custom_babyagi.py:88 - 向量数据库初始化失败: no such column: collections.topic
+2025-09-08 03:19:59,819 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: no such column: collections.topic
+2025-09-08 03:22:53,015 - babyagi.babyagi - ERROR - custom_babyagi.py:89 - 向量数据库初始化失败: no such column: collections.topic
+2025-09-08 03:22:53,015 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: no such column: collections.topic
+2025-09-08 03:23:24,667 - babyagi.babyagi - ERROR - custom_babyagi.py:89 - 向量数据库初始化失败: no such column: collections.topic
+2025-09-08 03:23:24,667 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: no such column: collections.topic
+2025-09-08 03:25:13,019 - babyagi.babyagi - ERROR - custom_babyagi.py:89 - 向量数据库初始化失败: no such column: collections.topic
+2025-09-08 03:25:13,019 - babyagi.api - ERROR - app.py:195 - 创建 Agent 失败: no such column: collections.topic
+2025-09-08 03:30:04,005 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:30:04,006 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:30:04,006 - babyagi.babyagi - ERROR - custom_babyagi.py:340 - 存储任务结果失败: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:30:04,006 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:37:34,444 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:37:34,445 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:37:34,446 - babyagi.babyagi - ERROR - custom_babyagi.py:340 - 存储任务结果失败: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:37:34,446 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:38:04,290 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:38:04,291 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:38:04,291 - babyagi.babyagi - ERROR - custom_babyagi.py:340 - 存储任务结果失败: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:38:04,292 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:40:47,330 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:40:47,331 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:40:47,331 - babyagi.babyagi - ERROR - custom_babyagi.py:340 - 存储任务结果失败: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:40:47,332 - babyagi.babyagi - ERROR - custom_babyagi.py:112 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:41:49,350 - babyagi.babyagi - ERROR - custom_babyagi.py:89 - 向量数据库初始化失败: An instance of Chroma already exists for ./chroma_db with different settings
+2025-09-08 03:42:10,854 - babyagi.babyagi - ERROR - custom_babyagi.py:89 - 向量数据库初始化失败: An instance of Chroma already exists for ./chroma_db with different settings
+2025-09-08 03:43:21,194 - babyagi.babyagi - ERROR - custom_babyagi.py:100 - 向量数据库初始化失败: An instance of Chroma already exists for ./chroma_db with different settings
+2025-09-08 03:44:54,011 - babyagi.babyagi - ERROR - custom_babyagi.py:123 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:44:54,012 - babyagi.babyagi - ERROR - custom_babyagi.py:123 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:44:54,012 - babyagi.babyagi - ERROR - custom_babyagi.py:351 - 存储任务结果失败: 
+
+You tried to access openai.Embedding, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-09-08 03:44:54,012 - babyagi.babyagi - ERROR - custom_babyagi.py:123 - OpenAI API 调用失败: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+

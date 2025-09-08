@@ -13,9 +13,12 @@ def crawl_website(url: str, limit: int = 100, formats: list = ["markdown", "html
     app = FirecrawlApp(api_key=api_key)
 
     try:
-        crawl_status = app.crawl_url(
+        crawl_status = app.crawl(
             url, 
-            params={'limit': limit, 'scrapeOptions': {'formats': formats}},
+            limit=limit,
+            scrape_options={
+                'formats': formats
+            },
             poll_interval=poll_interval
         )
         return crawl_status
